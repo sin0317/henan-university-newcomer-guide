@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 临时提取产物与检查脚本
+extracted/
+extract_rest.py
+skillhub_check.py
+
+# 本地素材（个人文档，不应入仓库）
+素材库_河南大学新生攻略.md
+
+# dist 打包产物（源码在根目录，zip 由 CI/发布时生成）
+dist/
+
+# ima 知识库抓取临时产物
+ima_wiki.html
+kb_*.js
+kb_data.json
+resp*.json
+rsc_payload.json
+share_info*.json
+share_page*.json
+init_data.json
+folder_list*.json
+
+# WorkBuddy 项目数据目录
+.workbuddy/
